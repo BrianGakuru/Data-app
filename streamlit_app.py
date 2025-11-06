@@ -153,7 +153,6 @@ if upload_file is not None:
                 # Building apps with Streamlit
                 Please select a page on the left
                 """
-                st.balloons()
                 st.write(df)
             elif page == "Bar Plot":
                 bar_chart()
@@ -876,6 +875,8 @@ if upload_file is not None:
         if __name__ == "__main__":
             main()
 else:
+    st.balloons()
+
     
     st.warning("Please upload a DataSet to Start Visualization")
     st.stop()
