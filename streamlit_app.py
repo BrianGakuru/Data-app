@@ -875,7 +875,7 @@ if upload_file is not None:
         if __name__ == "__main__":
             main()
 else:
-    st.balloons()
+    # st.balloons()
 
     
     st.warning("Please upload a DataSet to Start Visualization")
